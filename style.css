@@ -1,16 +1,22 @@
+
 body {
-	border: 1px dotted tomato;
+	border: 1px solid tomato;
 	box-sizing: border-box;
-	border-width: 0 1px;
-	font-family: sans-serif;
 	font-size: 2rem;
-	margin: 0 auto;
+	margin: 50px auto;
 	max-width: 700px;
-	min-height: 100vh;
 	padding: 4rem;
+	/* background: black; */
+	background-clip: border-box;
+	color: rgb(46, 2, 2);
+	font-family: 'Gloria Hallelujah', cursive;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 h1{
 	font-family: 'Permanent Marker', cursive;
+	margin: 0 auto 20px;
+	color: black;
 }
 
 ul {
@@ -19,6 +25,8 @@ ul {
 
 ul li {
 	padding: 1rem 0;
+	position: relative;
+	left: 50px;
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -28,6 +36,28 @@ ul li {
 
 input{
 	font-size: 2rem;
+	width: 350px;
+	border:none;
+	left: 50px;
+	color:black;
+	border-bottom: 1px black solid;
 	font-family: 'Gloria Hallelujah', cursive;
+	margin-right: 30px;
+	text-indent: 20px;
+	
 }
 
+textarea:focus, input:focus{
+	outline: none;
+}
+.hidden {
+	display:none;
+}
+
+span:hover {
+	color:grey;
+}
+
+span:active {
+	color:tomato;
+}
