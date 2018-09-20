@@ -9,6 +9,9 @@ body {
 	min-height: 100vh;
 	padding: 4rem;
 }
+h1{
+	font-family: 'Permanent Marker', cursive;
+}
 
 ul {
 	padding: 0;
@@ -16,4 +19,15 @@ ul {
 
 ul li {
 	padding: 1rem 0;
+	font-family: 'Gloria Hallelujah', cursive;
 }
+
+.done{
+	text-decoration: line-through;
+}
+
+input{
+	font-size: 2rem;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
